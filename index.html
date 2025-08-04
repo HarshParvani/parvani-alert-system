@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parvani Alert System</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <h1>🚨 Parvani Alert System</h1>
+
+  <div class="form-container">
+    <label for="userEmail">Your Email :</label>
+    <input type="email" id="userEmail" placeholder="example@email.com" />
+
+    <label for="eventName">Event Name:</label>
+    <input type="text" id="eventName" placeholder="Enter event name" required />
+
+    <label for="eventDescription">Event Description:</label>
+    <textarea id="eventDescription" placeholder="Describe the event" rows="4" required></textarea>
+
+    <button onclick="createEvent()">Create Alert</button>
+
+    <p id="message"></p>
+  </div>
+
+  <footer>
+    <small>© 2025 Parvani AI Alert System</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
